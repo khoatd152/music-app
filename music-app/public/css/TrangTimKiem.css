@@ -1,0 +1,239 @@
+body {
+    background-color: #192536;
+    color: white;
+}
+
+.main {
+    padding-top: 5%;
+}
+
+.main>* {
+    float: left;
+}
+
+.main>.allSong {
+    width: 100%;
+}
+
+.main>.allSong>* {
+    float: left;
+}
+
+.main>.allSong>.headerAllSong {
+    width: 100%;
+}
+
+.main>.allSong>.headerAllSong>p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.main>.allSong>.listSongItem {
+    width: 100%;
+    overflow-y: auto;
+    max-height: 250px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.main>.allSong>.listSongItem {
+    width: 100%;
+
+}
+
+.main>.allSong>.listSongItem>* {
+    float: left;
+    width: 100%;
+}
+
+.main>.allSong>.listSongItem>.item>* {
+    float: left;
+}
+
+.main>.allSong>.listSongItem>.item>.songImg {
+    width: 5%;
+}
+
+.main>.allSong>.listSongItem>.item>.songImg>img {
+    width: 100%;
+}
+
+.main>.allSong>.listSongItem>.item>.content {
+    margin-left: 2%;
+    width: 65%;
+    margin-bottom: 0px;
+}
+
+.main>.allSong>.listSongItem>.item>.content>* {
+    margin-bottom: 0px;
+}
+
+.main>.allSong>.listSongItem>.item>.content>.songName {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: inherit;
+    white-space: nowrap;
+}
+
+.main>.allSong>.listSongItem>.item>.content>.artistName {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.33;
+    text-align: left;
+    color: inherit;
+    color: #93939c;
+}
+
+.main>.allSong>.listSongItem>.item>.controls {
+    width: 21%;
+    padding-top: 1%;
+}
+
+.main>.allSong>.listSongItem>.item>.controls>* {
+    float: right;
+    margin-left: 10%;
+}
+
+.main>.allSong>.listSongItem>.item:hover {
+    background-color: #384e58;
+}
+
+.main>.allSong>.listSongItem>.item {
+    padding: 1%;
+}
+
+.main>.allSong>.listSongItem::-webkit-scrollbar {
+    width: 5px;
+    color: #21324a;
+}
+
+.main>.allSong>.listSongItem::-webkit-scrollbar-thumb {
+    background: #4d5b6e;
+}
+
+.main>.allAlbum {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.main>.allAlbum>* {
+    float: left;
+}
+
+.main>.allAlbum>.headerAllAlbum {
+    width: 100%;
+}
+
+.main>.allAlbum>.headerAllAlbum>p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.main>.allAlbum>.listAlbumItem {
+    width: 100%;
+}
+
+.main>.allAlbum>.listAlbumItem>* {
+    float: left;
+}
+
+.main>.allAlbum>.listAlbumItem>.item:hover {
+    cursor: pointer;
+}
+
+.main>.allAlbum>.listAlbumItem>.item {
+    float: left;
+    width: 200px;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.main>.allAlbum>.listAlbumItem>.item>.content {
+    width: 100%;
+}
+
+.main>.allAlbum>.listAlbumItem>.item>.content>* {
+    float: left;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.main>.allAlbum>.more {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.main>.allAlbum>.more>a {
+    color: white;
+    background-color: #5e2e8c;
+    padding: 7px;
+}
+
+
+.main>.allArtist {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.main>.allArtist>* {
+    float: left;
+}
+
+.main>.allArtist>.headerAllArtist {
+    width: 100%;
+}
+
+.main>.allArtist>.headerAllArtist>p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.main>.allArtist>.listArtist{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.main>.allArtist>.listArtist>*{
+    float: left;
+    width: 25%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.main>.allArtist>.listArtist>.item>.artistImg{
+    width: 200px;
+}
+.main>.allArtist>.listArtist>.item>.artistImg>img{
+    width: 100%;
+    border-radius: 100px;
+}
+.main>.allArtist>.listArtist>.item>.artistName{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%; 
+}
+.main>.allArtist>.listArtist>.item:hover{
+    cursor: pointer;
+}
+.main>.allArtist>.more {
+    width: 100%;
+    text-align: center;
+    color: white !important;
+}
+.main>.allArtist>.more>a {
+    color: white;
+    background-color: #5e2e8c;
+    padding: 7px;
+}

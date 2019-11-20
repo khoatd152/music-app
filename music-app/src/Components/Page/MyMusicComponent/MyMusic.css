@@ -1,0 +1,42 @@
+.mymusicBody {
+    margin-top: 2%;
+}
+
+.navbarList>li {
+    line-height: 30px;
+    margin-bottom: 5px;
+    float: none;
+    display: block;
+}
+
+.navbarList>li>a {
+    padding: 5px 12px;
+    display: block;
+    border-left: 5px solid transparent;
+    color: black;
+}
+
+.navbarList>li>a:hover {
+    border-color: #65509e;
+    color: #6e55b4;
+    background-color: #efefef;
+    font-weight: 500;
+}
+
+.activeMyMusicTab {
+    border-left: 5px solid transparent;
+    border-color: #65509e !important;
+    color: #6e55b4 !important;
+    background-color: #efefef;
+    font-weight: 500;
+}
+
+.mymusicBody>.body>.item {
+    padding-left: 0px;
+
+}
+
+.mymusicBody>.body>.item>.infoSongInRank {
+    padding-left: 0px;
+}
+

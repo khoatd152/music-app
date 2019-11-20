@@ -1,0 +1,47 @@
+body {
+    color: white;
+    background-color: #192536;
+  }
+  #body {
+    padding-top: 10%;
+  }
+.item>img{
+    
+    border-radius: 50%;
+        height: 80%;
+}
+.item{
+    text-align: center;
+}
+.follow{
+    color: #bfa8a0;
+    font-size: 12px;
+}
+.listArtist>a{
+    margin-left: 1%;
+    
+}
+.btnFollow{
+    margin-top: 5%;
+    border: 1px solid;
+    text-align: center;
+
+}
+.btnFollow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+.itemArtist{
+    margin-top: 5%;
+    margin-left: 1%;
+}
+.label{
+    margin-top: 2%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #32323d;
+    text-transform: capitalize;
+}
+.listArtist>div{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,9 @@
+.titleResult {
+    margin-bottom: 1rem;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.allSearchResult>div {
+    margin-bottom: 1rem;
+}

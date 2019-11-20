@@ -1,0 +1,35 @@
+.customModal img {
+    width: 45px;
+    height: 45px;
+}
+
+.img45 {
+    width: 45px;
+    height: 45px;
+}
+
+.songInfo {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #efefef;
+}
+
+.customModal .card-body {
+    padding: 5px;
+
+}
+
+.customModal ul {
+    margin-top: 1rem;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+.activePlaylist {
+    color: #6e55b4;
+}
+
+.playlistControl>* {
+    margin-top: 1rem;
+}

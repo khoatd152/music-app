@@ -1,0 +1,64 @@
+.rank {
+    margin-top: 5%;
+}
+
+.textCommon {
+    margin-top: 5%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #32323d;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.45;
+    margin: 8px 0 5px;
+    text-transform: capitalize;
+}
+
+.rankOfSong {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textChart {
+    margin-top: 5%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #32323d;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.45;
+    margin: 8px 0 5px;
+    text-transform: capitalize;
+}
+
+.chartImg {
+    width: 40px;
+    height: 40px;
+}
+
+.songInChart a:hover {
+    color: #8a6fd6 !important;
+}
+
+.btnMore:hover {
+    color: #8a6fd6 !important;
+}
+
+.titleChart {
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #32323d;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.45;
+    margin: 8px 0 5px;
+    text-transform: capitalize;
+}

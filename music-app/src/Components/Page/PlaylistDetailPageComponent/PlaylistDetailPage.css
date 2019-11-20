@@ -1,0 +1,18 @@
+.infoDetails .title {
+    font-size: 26px;
+}
+
+.infoDetails {
+    text-align: center;
+}
+
+.infoDetails>* {
+    margin-bottom: 10px;
+}
+
+.songCount{
+    font-size: 12px;
+    color: #a0a0a0;
+    text-align: center;
+    line-height: normal;
+}

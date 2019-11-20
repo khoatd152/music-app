@@ -1,0 +1,20 @@
+.titlePart {
+    font-size: 24px;
+    font-weight: 700;
+    color: #32323d;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    padding-left: 0px;
+}
+
+.overflowText {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inherit;
+}
+
+.indexPage>* {
+    margin-top: 5%;
+
+}

@@ -1,0 +1,7 @@
+.c-m-active-tab {
+    border-left: 5px solid transparent;
+    border-color: #65509e !important;
+    color: #6e55b4 !important;
+    background-color: #efefef;
+    font-weight: 500;
+}

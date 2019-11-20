@@ -1,0 +1,125 @@
+body {
+    color: white;
+    background-color: #192536;
+  }
+  #body {
+    padding-top: 10%;
+  }
+  .albumClass{
+    
+
+}
+.resultFilterAlbum{
+    padding-top: 1%;
+    color: white;
+
+}
+.filterTab{
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 10%;
+}
+.listAlbum{
+    margin-top: 2%;
+    text-align: left;
+}
+a{
+    color: white;
+    
+}   
+a:hover{
+    color : #20b484;
+}
+.overflowText{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+}
+.itemAlbum>*{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.padding0{
+    padding-left: 0px;
+}
+.currentTab>a{
+    border-bottom: 2px solid white;
+
+}
+#album{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 1%;
+}
+.labelAndTab>*:not(:first-child){
+    padding-top: 2%;
+}
+
+.currentTabChart{
+    color : #20b484;
+}
+.itemChart img{
+    width: 60px;
+}
+.rank{
+    padding-top: 3%;
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+}
+.listChart{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.itemChart:not(:first-child)>a{
+    border-top: 1px solid #303b4a;
+
+}
+.itemChart>a{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.details>*{
+    font-size: 15px;
+}
+.singerName{
+    color: #597075;
+}
+.tabChart>div:not(:first-child){
+    padding-left: 0px;
+}
+.labelTab{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.bxhAlbum{
+    margin-top: 1%;
+    padding-left: 0px;
+}
+#filterAlbum{
+    padding-left: 12%;
+}
+.page{
+    font-size: 22px;
+    font-family: Averta-Bold;
+    color: #fff;
+}
+.page>a{
+    margin-left: 5%;
+    text-align: center;
+}
+.active{
+    
+}

@@ -1,0 +1,196 @@
+body{
+    background-color: #192536;
+}
+.main{
+    padding-top: 5%;
+}
+.main>*{
+    float: left;
+}
+.favoriteSong{
+    width: 100%;
+}
+.favoriteSong>.bodyFavorite>*{
+    float: left;
+}
+.favoriteSong>.headerFavorite{
+    float: left;
+    width: 100%;
+}
+.favoriteSong>.headerFavorite>*{
+    float: left;
+}
+
+.favoriteSong>.headerFavorite>.title{
+    width: 70%;
+    color: white;
+    font-size: 23px;
+    
+}
+.favoriteSong>.bodyFavorite>ul{
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 223px;
+    background-color: #263b57;
+    padding: 2%;
+    overflow-y: auto;
+}
+.favoriteSong>.bodyFavorite>ul>*{
+    float: left;
+    width: 100%;
+    padding: 1%;
+}
+.favoriteSong>.bodyFavorite>ul>li>a>*{
+    float: left;
+    color: white;
+    margin-bottom: 0px;
+}
+
+
+.favoriteSong>.bodyFavorite>ul>li>a>.number{
+    width: 3%;
+}
+.favoriteSong>.bodyFavorite>ul>li>a>.info{
+    width: 67%;
+}
+.favoriteSong>.bodyFavorite>ul>li>a>.info>*{
+    float: left;
+    
+}
+
+.favoriteSong>.bodyFavorite>ul>li:hover{
+    background-color: #555088;
+}
+.favoriteSong>.bodyFavorite>ul>li>a>.info>.songName{
+    width: 50%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* display: inline-block; */
+    white-space: nowrap;
+}
+.favoriteSong>.bodyFavorite>ul>li>a>.info>.artistName{
+    padding-left: 2%;
+    width: 49%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* display: inline-block; */
+    white-space: nowrap;
+}
+.favoriteSong>.bodyFavorite>ul>li>a>div{
+    width: 7%;
+    float: right;
+}
+.favoriteSong>.bodyFavorite>ul>li>a>.detail:hover>img{
+    content:url("/image/icon/info-hover.png");
+}
+.favoriteSong>.bodyFavorite>ul>li>a>.del:hover>img{
+    content:url("/image/icon/del-hover.png");
+}
+.favoriteSong>.bodyFavorite>ul>li>a>.download:hover>img{
+    content:url("/image/icon/download-hover.png");
+}
+
+.favoriteSong>.bodyFavorite>ul::-webkit-scrollbar {
+    width: 2px;
+    color: #21324a;
+}
+.favoriteSong>.bodyFavorite>ul::-webkit-scrollbar-thumb {
+    background: #4d5b6e;
+}
+.favoriteSong>.headerFavorite>.playAll{
+    border: 0;
+    padding: 4px 12px;
+    background-color: #65509e;
+    color: #fcfcfc;
+    text-transform: initial;
+    cursor: pointer;
+    width: 12%;
+    margin-right: 5%;
+    float: right;
+}
+.favoriteSong>.bodyFavorite>.imageFavorite{
+    width:20%;
+}
+.favoriteSong>.bodyFavorite>.imageFavorite>img{
+    width: 100%;
+}
+
+.hrTag{
+    border: 0.1px solid rgb(211, 204, 204);
+    width: 100%;
+}
+
+.allPlayList{
+    width: 100%;
+    margin-top: 0%;
+}
+.allPlayList *{
+    float: left;
+}
+.allPlayList>.headerPlayList{
+    width: 100%;
+    color: white;
+    font-size: 23px;
+}
+.allPlayList>.bodyPlayList{
+    width: 100%;
+
+}
+.allPlayList>.bodyPlayList>.listPlayList{
+    width: 100%;
+}
+
+.allPlayList>.bodyPlayList>.listPlayList>.itemPlayList{
+    width: 20%;
+    margin-right: 5%;
+}
+.allPlayList>.bodyPlayList>.listPlayList>.itemPlayList>.itemImage{
+    width: 100%;
+}
+.allPlayList>.bodyPlayList>.listPlayList>.itemPlayList>.playListName{
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* display: inline-block; */
+    white-space: nowrap;
+
+}
+.allPlayList>.bodyPlayList>.listPlayList>.itemPlayList:hover{
+    cursor: pointer;
+}
+.allPlayList>.bodyPlayList>.listPlayList>.itemPlayList:hover>.playListName{
+    color: #dedce4;
+}
+.addSongStatus{
+	position: fixed;
+    float: left;
+    width: 30%;
+    left: 35%;
+    top: 10%;
+    right: 35%;
+    background: white;
+    color: black;
+    z-index: 10;
+    background-color: #65509e;
+    color: white;
+    font-weight: 400;
+    padding-left: 2%;
+    padding-right: 2%;
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

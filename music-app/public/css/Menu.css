@@ -1,0 +1,109 @@
+*{
+    margin:0; 
+    padding: 0
+}
+
+ul{
+    list-style: none;
+
+}
+.header{
+    float: left;
+    width: 100%;
+    background: #21324a;
+    z-index: 10;
+    position: fixed;
+    height: 45px !important;
+}
+.header>a{
+    float: left;
+    width: 5%;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.menu ul{
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    display: none;
+    
+}
+.menu{
+    float: left;
+    width: 65%;
+   
+}
+.menu> li{
+    width:16% !important;
+}
+.menu li{
+    float: left;
+    width: 100%;
+    line-height: 1.5em;
+    position: relative;
+    text-align: center;
+    
+    padding: 10px;
+    background: #21324a;
+}
+.menu li:hover{
+    background: #20b484;
+    cursor: pointer;
+}
+.menu ul ul{
+    left: 100%;
+    top: 0px;
+}
+#icon_index{
+    float: left;
+    padding-left: 20%;
+}
+.search>input{
+    float: left;
+    line-height: 1em;
+    position: relative;
+    padding-top: 5px;
+    outline: none;
+    border: 0px;
+    width: 80% ;
+ 
+}
+.search{
+    background: white;
+    float: left;
+
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 15%;
+    position: relative;
+}
+.search>a{
+    float: left;
+    width: 20%;
+
+}
+.user{
+    margin-left: 88%;
+    float: left;
+    width: 10%;
+    position: fixed;
+}
+.user>img{
+    float: left;
+    
+}
+.user>a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-top: 10%;
+    
+}
+
+a{
+    text-decoration: none !important;
+}

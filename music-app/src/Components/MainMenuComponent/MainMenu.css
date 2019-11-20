@@ -1,0 +1,12 @@
+#navbarSupportedContent>ul>* {
+    margin: auto;
+}
+
+#searchBar {
+    width: inherit;
+}
+
+.selected {
+    color: #65509e !important;
+    font-weight: bold;
+}

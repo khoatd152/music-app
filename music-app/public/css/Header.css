@@ -1,0 +1,83 @@
+#Header{
+    position: fixed;
+    z-index: 1;
+}
+
+.header{
+    background-color: #21324a;;
+    padding: 1%;
+    border-radius: 2px;
+    
+}
+.logoIndex{
+    width: 90%;
+    padding-left: 20%;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+.searchBar{
+    padding: 2%;
+}
+#search{
+    width: 70%;
+}
+#icon_user{
+    height: 40px;
+    border-radius: 20px;
+    margin: 4%;
+}
+#user{
+    margin-top: 5%;
+    font-size: 120%;
+}
+#icon_user:hover{
+    cursor: pointer;
+}
+#user:hover{
+    cursor: pointer;
+}
+.cat{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px;
+}
+a:hover{
+    text-decoration: none;
+}
+.tab:hover{
+    
+    color: #65509e;
+    border-bottom: 2px solid #65509e;
+}
+
+
+.tabPopup{
+    font-size: 20px;
+    text-align: center;
+    margin: 1%;
+    margin-top: 5%;
+    font-weight: bold;
+    
+}
+.tabPopup>a{
+    color: #8ba7a7;
+   text-transform: uppercase;
+}
+.tabPopup>a:hover{
+    color: rgb(36, 33, 34);
+    border-bottom: 2px solid #4e6faa;
+}
+.curTabPopup{
+    border-bottom: 2px solid #4e6faa;
+    border-width: 80%;
+}
+a{
+    color: white;
+    
+}   
+a:hover{
+    color : #20b484;
+}

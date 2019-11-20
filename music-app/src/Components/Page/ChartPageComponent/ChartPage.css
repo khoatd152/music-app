@@ -1,0 +1,28 @@
+.rankTabs>li>a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 15px;
+    display: block;
+    float: left;
+    text-transform: capitalize;
+    color: #7d7d7d;
+}
+
+.rankBody>div {
+    margin-top: 2%;
+}
+
+
+.itemControls>ul>li {
+    margin-left: 15px;
+}
+
+.itemControls {
+    padding: 0px;
+}
+
+.songInChart {
+    padding-left: 0px;
+    ;
+}

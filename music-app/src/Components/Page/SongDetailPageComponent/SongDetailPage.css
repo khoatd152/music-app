@@ -1,0 +1,154 @@
+.songDetail .background {
+    width: 1024px;
+    height: 220px;
+
+    background-size: cover;
+    filter: blur(60px);
+    -webkit-transform: scale(1.1);
+    position: absolute;
+}
+
+.sub-container {
+    margin: 0px;
+    padding: 0;
+    position: relative;
+    background-color: rgba(0, 0, 0, .65);
+    padding: 25px;
+}
+
+.songDetail .header {
+    background-color: #000;
+    overflow: hidden;
+    padding: 0;
+    width: 1026px;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding: 25px; */
+}
+
+
+
+.songDetail .info h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fcfcfc;
+    margin: 0;
+}
+
+.songDetail .info a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    /* background-color: #fcfcfc; */
+    font-weight: 400;
+}
+
+.songDetail .info a:hover {
+    color: #aa8aff;
+}
+
+.songDetail .info .moreInfo {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    color: #a0a0a0;
+    margin-bottom: 3px;
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    /* background-color: #fcfcfc; */
+    font-weight: 400;
+}
+
+.moreInfo .composer a {
+    color: #a0a0a0;
+}
+
+.log-stats {
+    font-size: 18px;
+    color: #fcfcfc;
+    font-weight: 700;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.log-stats>* {
+    margin-left: 15px;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    color: #65509e !important;
+
+}
+
+.controlSongDetail {
+    margin-top: 10px;
+    padding: 0px;
+    align-items: center;
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+}
+
+.controlSongDetail>div {
+    margin-right: 2%;
+
+}
+
+.artistAndLyrics {
+    margin-top: 2%;
+
+}
+
+.artistAndLyrics img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.artistAndLyrics .artistInfo {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+}
+
+.artistInfo div {
+    margin-left: 3px;
+}
+
+.lyricsInfo {
+    margin-top: 20px;
+}
+
+.lyricsInfo h4 {
+    font-size: 18px;
+    color: #2a2b3f;
+    font-weight: 500;
+    word-break: break-word;
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+}
+
+.recommendPanel .recommend {
+    padding: 0px;
+}
+
+.artistInfo>div>div {
+    font-weight: 400;
+    color: #a0a0a0;
+}
+
+.artistTitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+    color: #32323d;
+}

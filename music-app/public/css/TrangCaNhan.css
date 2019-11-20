@@ -1,0 +1,159 @@
+body{
+    background-color: #192536;
+    color: white;
+}
+.main{
+    padding-top: 5%;
+}
+.main>*{
+    float: left;
+    width: 100%;
+}
+.main>.Title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.main>.bodyDetails{
+    width: 100%;
+    border: 1px solid #988686;
+    box-shadow: 1px 1px 4px 4px black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #263750;
+}
+.main>.bodyDetails>*{
+    float: left;
+}
+.main>.bodyDetails>.imgUser{
+    width: 100%;
+    text-align: center;
+    
+}
+.main>.bodyDetails>.imgUser>img{
+    cursor: pointer;
+}
+
+.main>.bodyDetails>.imgUser>img{
+    width: 150px;
+}
+.main>.bodyDetails>.details{
+    width: 40%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.main>.bodyDetails>.details>*{
+    float: left;
+    width: 100%;
+    padding: 2%;
+}
+.main>.bodyDetails>.details>.userName>.generalClass{
+    font-size: 20px;
+    font-weight: 600;   
+    margin-bottom: 0px;
+}
+.main>.bodyDetails>.details>div{
+    float: left;
+    text-align: left;
+}
+.main .generalClass{
+    font-size: 19px;
+    color: aliceblue;
+    width: 30%;
+}
+.main>.bodyDetails>.details>div>*{
+    float: left;
+}
+.main>.bodyDetails>.details>div>input{
+    padding: 1%;
+    border-radius: 2px;
+    border: 0px;
+    width: 70%;
+}
+.main>.bodyDetails>.details>.save{
+    text-align: center;
+    width: 100%;
+}
+.main>.bodyDetails>.details>.save>a{
+    width: 30%;
+    font-size: 18px;
+    color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #7e34b9;
+    font-weight: 500;
+    padding: 1%;
+}
+.main>.changePass{
+    margin-top: 1%;
+    width: 100%;
+    border: 1px solid #988686;
+    box-shadow: 1px 1px 4px 4px black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #263750;
+    margin-bottom: 2%;
+}
+.main>.changePass>.title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.main>.TitleChangePass{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+.main>.TitleChangePass>p{
+    margin-bottom: 0px;
+}
+.main>.changePass>.body{
+    width: 40%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.main>.changePass>.body{
+  
+    float: left;
+}
+
+.main>.changePass>.body>.bodyChangePass{
+    width: 100%;
+    float: left;
+}
+.main>.changePass>.body>.bodyChangePass>div{
+    padding-bottom: 5%;
+    float: left;
+}
+.main>.changePass>.body>.bodyChangePass>div{
+    width: 100%;
+}
+.main>.changePass>.body>.bodyChangePass>div>*{
+    float: left;
+}
+.main>.changePass>.body>.bodyChangePass>div>.generalClass{
+    width: 30%;
+    text-align: left;
+}
+.main>.changePass>.body>.bodyChangePass>div>input{
+    padding: 1%;
+    border-radius: 2px;
+    border: 0px;
+    width: 70%;
+}
+.main>.changePass>.body>.bodyChangePass>.save{
+    width: 100%;
+    padding-bottom: 2%;
+}
+.main>.changePass>.body>.bodyChangePass>.save>a{
+    width: 30%;
+    font-size: 18px;
+    color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #7e34b9;
+    font-weight: 500;
+    padding: 1%;
+}

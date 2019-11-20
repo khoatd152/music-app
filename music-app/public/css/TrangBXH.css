@@ -1,0 +1,164 @@
+body {
+    background-color: #192536;
+    color: white;
+}
+
+#body {
+    padding: 1%;
+    background-color: #192536;
+    color: white;
+    padding-top: 5%;
+    float: left;
+}
+
+.titleLabel {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.tabTheLoai {
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+.tabTheLoai>a {
+    color: #6a8385;
+}
+
+.tabTheLoaiDcChon {
+    border-bottom: 2px solid white;
+    color: white !important;
+}
+
+.padding0 {
+    padding-left: 0px;
+}
+
+.playAll {
+    font-size: 18px;
+}
+
+.playAll>a {
+    color: white;
+}
+
+.playAll>a:hover {
+    color: #20b484;
+}
+
+.listBXH {
+    margin-top: 1%;
+}
+
+.content>a>img {
+    width: 58px;
+    height: 58px;
+}
+
+.ngheSi {
+    color: #6a837b;
+}
+
+.rank {
+    font-size: 30px;
+
+}
+
+.hr {
+    font-size: 30px;
+}
+
+.addPlayList {
+    font-size: 22px;
+    margin-top: 2%;
+}
+
+.tabTheLoai>.songName:hover {
+    border-bottom: 2px solid white;
+    color: #20b484 !important;
+}
+
+.details>.songName {
+    color: white;
+}
+
+.main>* {
+    float: left;
+    width: 100%;
+}
+
+.main>.headerBXH>* {
+    float: left;
+}
+
+.main>.headerBXH>.titleLabel {
+    width: 30%;
+}
+
+.main>.headerBXH>.tabTheLoai {
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+.main>.headerBXH>.tabTheLoai>a {
+    margin-left: 3%;
+}
+.main>.headerBXH>.playAll{
+    width: 100%;
+}
+.main>.listBXH{
+    width: 100%;
+}
+.main>.listBXH >*{
+    float: left;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.main>.listBXH>.item>*{
+    float: left;
+}
+.main>.listBXH>.item>.rank{
+    width: 6%;
+}
+.main>.listBXH>.item>.content{
+    width: 94%;
+}
+.main>.listBXH>.item>.content>*{
+    float: left;
+}
+.main>.listBXH>.item>.content>.imgArtist{
+    width: 5%;
+}
+.main>.listBXH>.item>.content>.imgArtist>img{
+    width: 100%;    
+}
+.main>.listBXH>.item>.content>.details{
+    width: 65%;
+}
+.main>.listBXH>.item>.content>.details>*{
+    float: left;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-left: 2%;
+}
+.main>.listBXH>.item>.content>.details>.songName{
+    font-size: 18px;
+}
+.main>.listBXH>.item>.content>.details>.songName:hover{
+    cursor: pointer;
+}
+.main>.listBXH>.item>.content>.details>.artistName{
+    color: #a4a4a4;
+}
+.main>.listBXH>.item>.content>.controls{
+    width: 30%;
+    text-align: right;
+    padding-top: 5px
+}
+.main>.listBXH>.item>.content>.controls>*{
+    margin-left: 5%;    
+}
+.changeBackground{
+    background-color: #263346;
+}
